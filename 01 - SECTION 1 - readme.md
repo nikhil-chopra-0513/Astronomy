@@ -1,7 +1,7 @@
 ## SECTION 1 - CONTEXT
 
 ### Overview
-<p>This Github Gist contains all the code, information and useful links relating to a Google Summer of Code (GSoC) 2022 project, the project is called "Finding Exoplanets with Astronomical Observations". </p>
+<p>Finding Exoplanets with Astronomical Observations. </p>
 
 ### Project Description
 <p>The purpose of this project is to use publicly available data from observations intended to identify exoplanets in order to determine whether or not a given stellar system contains one or more exoplanets.
