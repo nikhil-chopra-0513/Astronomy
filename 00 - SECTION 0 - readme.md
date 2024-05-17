@@ -2,8 +2,8 @@ Finding Exoplanets with Astronomical Observations
 
 
 <p float="left" align="middle">
+  <img src="https://lh6.googleusercontent.com/sXTZ2WWpBHSEAhImiy8QgA3JSsSQ2gCrQu-fP1SYJpIN7zWVuajDqwK6IsyUEBg0-iFb9H9vERnP9yOuTW4YVjT-QXl4nR6IxVmvOt_sFLiH6ICQmnAaG8DZV_LRa0DuDRLWE_P0Ow" width="125" />
 
-  <img src="https://ml4sci.org/images/ml4sci_logo_angled.png" width="125" />
 </p>
 
 <p align="center">
