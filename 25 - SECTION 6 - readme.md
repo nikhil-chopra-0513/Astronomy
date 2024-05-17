@@ -1,0 +1,7 @@
+## SECTION 6: KEY LEARNINGS
+
+- <b>Processing Matters: </b>From the results observed, it becomes clear that processing is not only necessary to go from a raw input into data that is in the correct format to be fed into a machine learning model, but the level of processing applied and having a clear methodology behind it is paramount. For this exoplanet data, the paper on processing methods for deep learning on exoplanets was key, and this dataset is the recommended one for any future projects.
+- <b>GPU Power: </b>It was found that even if reducing the batch size when running larger datasets above 500 rows would cause 'GPU out of memory' errors, hence this study was limited to around 500 samples for both datasets, as models (especially deep learning ones as tested here) require large amounts of samples, the test results demonstrated here are quite promising even if the accuracies are relatively low.
+- <b>Proper Documentation: </b>When browsing for resources, particularly time series classification models, some resources were out date or code in notebooks would not run as is. For this reason, it is paramount that all code should run properly and every precaution was taken when preparing this gist.
+- <b>Models matter: </b>From the results, we can see that the most feasible model is the state of the art Time Series Transformer Model; for the task of time series classification, on such small datasets, the sophistication of the model itself can be a limiting factor in obtaining satisfactory results. 
+

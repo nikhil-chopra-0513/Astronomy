@@ -1,0 +1,39 @@
+Benchmark Results,,,,,
+,,,,,
+DATA:,Global View,,,,
+Arch ,Hyperparams,Train Loss,Valid Loss,Accuracy,Time
+ResNet,{},0.101971,0.570287,0.835165,20
+OmniScaleCNN,{},0.187023,0.70566,0.824176,186
+xresnet1d34,{},0.012369,0.87605,0.813187,31
+InceptionTime,{},0.052903,0.5022,0.813187,23
+ResCNN,{},0.211304,0.592521,0.769231,22
+LSTM_FCN,{},0.367932,0.56479,0.747253,14
+FCN,{},0.379054,0.566882,0.714286,16
+LSTM_FCN,{'shuffle': False},0.385292,0.562923,0.714286,38
+LSTM,"{'n_layers': 3, 'bidirectional': True}",0.595162,0.599472,0.703297,136
+mWDN,{'levels': 4},0.084603,1.129448,0.692308,25
+LSTM,"{'n_layers': 1, 'bidirectional': False}",0.601289,0.611448,0.681319,34
+XceptionTime,{},0.436045,0.552484,0.681319,23
+LSTM,"{'n_layers': 2, 'bidirectional': False}",0.581708,0.598325,0.67033,52
+LSTM,"{'n_layers': 1, 'bidirectional': True}",0.639124,0.642683,0.67033,50
+LSTM,"{'n_layers': 2, 'bidirectional': True}",0.604301,0.60013,0.67033,92
+LSTM,"{'n_layers': 3, 'bidirectional': False}",0.682145,0.682709,0.571429,67
+,,,,,
+DATA: ,Raw View,,,,
+Arch ,Hyperparams,Train Loss,Valid Loss,Accuracy,Time
+ResNet,{},0.081148,0.54911,0.846154,17
+OmniScaleCNN,{},0.202464,0.639158,0.813187,187
+ResCNN,{},0.190979,0.514264,0.791209,14
+xresnet1d34,{},0.007197,1.053324,0.758242,25
+InceptionTime,{},0.036138,0.577145,0.736264,23
+LSTM_FCN,{},0.374544,0.571736,0.725275,13
+LSTM,"{'n_layers': 2, 'bidirectional': False}",0.57476,0.606897,0.714286,49
+mWDN,{'levels': 4},0.087482,1.405759,0.714286,25
+LSTM_FCN,{'shuffle': False},0.382874,0.580837,0.703297,38
+FCN,{},0.377618,0.575527,0.692308,11
+LSTM,"{'n_layers': 2, 'bidirectional': True}",0.586023,0.616293,0.692308,93
+XceptionTime,{},0.423537,0.550438,0.692308,23
+LSTM,"{'n_layers': 1, 'bidirectional': False}",0.605034,0.613509,0.681319,30
+LSTM,"{'n_layers': 3, 'bidirectional': False}",0.572732,0.609226,0.681319,68
+LSTM,"{'n_layers': 3, 'bidirectional': True}",0.618245,0.620349,0.681319,137
+LSTM,"{'n_layers': 1, 'bidirectional': True}",0.620575,0.632382,0.659341,50
